@@ -1,0 +1,115 @@
+﻿<Window x:Name="MainWindow1" x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="MainWindow1_Closing">
+    <Grid x:Name="MainSpace">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="9*"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="DatePicker" Grid.Row="0" Grid.ColumnSpan="2">
+            <DatePicker x:Name="Date" FirstDayOfWeek="Monday" IsTodayHighlighted="True" SelectedDateChanged="Date_SelectedDateChanged" FontSize="16" />
+        </Grid>
+
+        <Grid x:Name="CommonSpace" Grid.Row="1" Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <Border x:Name="OutputSpaceBorder" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+
+                <Grid x:Name="OutputSpace" Grid.Column="0">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="9*"/>
+                        <RowDefinition Height="30"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid x:Name="OutputBlock" Grid.Row="0">
+
+                        <ListBox x:Name="Notes" DisplayMemberPath="name" SelectionChanged="Notes_SelectionChanged"/>
+
+                    </Grid>
+
+                    <Grid x:Name="DeleteButtons" Grid.Row="1">
+                        <Button x:Name="Delete" Content="Delete" Click="Delete_Click"/>
+                    </Grid>
+
+                </Grid>
+
+            </Border>
+
+            <Border x:Name="EditSpaceBorder" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+
+                <Grid x:Name="EditSpace" Grid.Column="1">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="9*"/>
+                        <RowDefinition Height="30"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+
+                        <StackPanel>
+
+                            <TextBlock x:Name="Name" TextAlignment="Center" FontSize="16" FontStyle="Italic">Name</TextBlock>
+                            <TextBox x:Name="WriteName"/>
+                            <TextBlock x:Name="Description" TextAlignment="Center" FontSize="16" FontStyle="Italic">Description</TextBlock>
+                            <TextBox x:Name="WriteDescription"/>
+
+                        </StackPanel>
+
+
+                    </Grid>
+
+                    <Grid x:Name="SaveButtons" Grid.Row="1">
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <Grid x:Name="NewButton" Grid.Column="0">
+
+                            <Button x:Name="New" Content="New" Click="New_Click"/>
+
+                        </Grid>
+
+                        <Grid x:Name="SaveButton" Grid.Column="1">
+
+                            <Button x:Name="Save" Content="Save" Click="Save_Click"/>
+
+                        </Grid>
+
+                    </Grid>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</Window>
