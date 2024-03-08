@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MaterialDesignColors/3.0.1-ci563": {
+        "runtime": {
+          "lib/net7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.0.1-ci563": {
+        "dependencies": {
+          "MaterialDesignColors": "3.0.1-ci563",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaterialDesignColors/3.0.1-ci563": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kgwPm8z11FEe4kdmrTvMMCkaGaIbecSxExOexAizME9BBQEDmWaxva9pdcHO4iNFfcLecIsepDhkJDr9N2Wmug==",
+      "path": "materialdesigncolors/3.0.1-ci563",
+      "hashPath": "materialdesigncolors.3.0.1-ci563.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.0.1-ci563": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCQA1FD64zx8Et/zU7Ln914qDEjGusKeYDsH+Vy1bYPKq9hjgh27vxcWD4cx//VJr1ftwP7Nlmny1IzenrjGNw==",
+      "path": "materialdesignthemes/5.0.1-ci563",
+      "hashPath": "materialdesignthemes.5.0.1-ci563.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    }
+  }
+}
