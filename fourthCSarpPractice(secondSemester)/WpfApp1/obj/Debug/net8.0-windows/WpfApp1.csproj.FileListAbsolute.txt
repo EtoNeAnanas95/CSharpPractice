@@ -36,13 +36,11 @@ C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.AssemblyReference.cache
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\RunTestWindow.g.cs
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\App.baml
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\RunTestWindow.baml
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache

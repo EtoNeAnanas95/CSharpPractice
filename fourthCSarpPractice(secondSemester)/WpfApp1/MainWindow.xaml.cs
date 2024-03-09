@@ -36,7 +36,7 @@ namespace WpfApp1
         
         private void RunTestButton_Click(object sender, RoutedEventArgs e)
         {
-            EditTestWindow runTestWindow = new EditTestWindow();
+            EditTestWindow runTestWindow = new EditTestWindow(false);
             runTestWindow.Show();
             Close();
         }
@@ -46,7 +46,7 @@ namespace WpfApp1
             TextBox textBox = (TextBox)sender;
             if (textBox.Text == "бульк")
             {
-                EditTestWindow editTestWindow = new EditTestWindow();
+                EditTestWindow editTestWindow = new EditTestWindow(true);
                 editTestWindow.Show();
                 Close();
             }

@@ -37,7 +37,10 @@ public partial class EditTestWindowRunTestPage : Page
             AnswerResultTextBlock.Text = "ТЫ НЕВЕРЕОЯТНО ХАРОШ!!";
         }
         else AnswerResultTextBlock.Text = "ТЫ НЕВЕРЕОЯТНО ЛОХ(((";
+        
+        Thread.Sleep(1000);
         _currentQuestion++;
+        
         if (_currentQuestion < _listTests.Count) SwitchAttributesContent();
         else
         {

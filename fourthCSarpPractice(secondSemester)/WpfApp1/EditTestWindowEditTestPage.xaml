@@ -11,7 +11,7 @@
     <Grid>
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
+            <RowDefinition Height="6*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         
@@ -24,7 +24,6 @@
             CanUserResizeColumns = "False"
             CanUserSortColumns = "False"
             CanUserResizeRows = "False"
-            CellEditEnding="MainGrid_OnCellEditEnding"
         />
         
         <TextBlock 
@@ -33,11 +32,15 @@
             VerticalAlignment="Center"
             TextAlignment="Center"
             FontFamily="Arial"
-            FontSize="14"
+            FontSize="13"
             FontStyle="Italic"
             Foreground="#7a574a"
         >
-            Для создания новой стороки нажмите ctrl + N<LineBreak/>Для удаления последней стороки нажмите ctrl + D
+            Для создания новой стороки нажмите ctrl + N
+            <LineBreak/>
+            Для удаления последней стороки нажмите ctrl + D
+            <LineBreak/>
+            Для сохранения нажамите ctrl + S
         </TextBlock>
     </Grid>
 </Page>

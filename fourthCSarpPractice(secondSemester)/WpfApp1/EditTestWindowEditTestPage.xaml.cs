@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace WpfApp1;
@@ -16,11 +17,6 @@ public partial class EditTestWindowEditTestPage : Page
         
         MainGrid.ItemsSource = listTests;
     }
-    private void MainGrid_OnCellEditEnding(object? sender, DataGridCellEditEndingEventArgs e)
-    {
-        Json.Serialize(listTests, "Tests.json");
-    }
-
 
     private void EditTestWindowEditTestPage_OnPreviewKeyDown(object sender, KeyEventArgs e)
     {
@@ -38,5 +34,6 @@ public partial class EditTestWindowEditTestPage : Page
             MainGrid.ItemsSource = null;
             MainGrid.ItemsSource = listTests;
         }
+        else if (Keyboard.Modifiers == ModifierKeys.Control && e.Key.ToString() == "S") Json.Serialize(listTests, "Tests.json");
     }
 }

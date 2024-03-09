@@ -4,9 +4,10 @@ namespace WpfApp1;
 
 public partial class EditTestWindow : Window
 {
-    public EditTestWindow()
+    public EditTestWindow(bool IsEditable)
     {
         InitializeComponent();
+        if (!IsEditable) EditButton.IsEnabled = false;
     }
 
     private void ExitButton_Click(object sender, RoutedEventArgs e)

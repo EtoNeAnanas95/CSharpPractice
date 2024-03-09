@@ -8,56 +8,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eaea772-e143-480b-b087-1dc92348656a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WpfApp1/Answers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/Json.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WpfApp1/Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowEditTestPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/EditTestWindowRunTestPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/RunTestWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/RunTestWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/WpfApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/WpfApp1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/RunTestWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/YDALU_K_HYYAM.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/RunTestWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/YDALU_K_HYYAM.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/Tests.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/Tests.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/RunTestWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/RunTestWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowEditTestPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowEditTestPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowEditTestPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowEditTestPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowRunTestPage.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowRunTestPage.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowRunTestPage.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/EditTestWindowRunTestPage.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/RunTestWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/RunTestWindow.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.i.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.i.lref" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
