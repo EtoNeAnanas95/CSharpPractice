@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "Кто самый умный",
+    "Description": "внатуре",
+    "FirstAnswer": "он",
+    "SecondAnswer": "она",
+    "ThirdAnswer": "я",
+    "RightAnswer": 2
+  },
+  {
+    "Name": "1 + 1",
+    "Description": "///",
+    "FirstAnswer": "1",
+    "SecondAnswer": "2",
+    "ThirdAnswer": "3",
+    "RightAnswer": 1
+  }
+]

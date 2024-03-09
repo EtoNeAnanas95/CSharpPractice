@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="5.0.1-ci563" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

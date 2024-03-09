@@ -9,6 +9,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void EditTestButton_Click(object sender, RoutedEventArgs e)
@@ -25,39 +26,31 @@ namespace WpfApp1
                     VerticalAlignment = VerticalAlignment.Center,
                     TextAlignment = TextAlignment.Center,
                     Background = new SolidColorBrush(Color.FromArgb(0, 255, 255, 255)),
-                    //Style = CreateWatermarkStyle()
                 };
                 textBox1.SelectionChanged += TextBox1_SelectionChanged;
-                Separator separator1 = new Separator() { Margin = new Thickness(5, 20, 5, 0) };
+                textBox1.KeyDown += TextBox1_KeyDown;
                 Grid.SetRow(textBox1, 3);
-                Grid.SetRow(separator1, 3);
                 MainSpace.Children.Add(textBox1);
-                MainSpace.Children.Add(separator1);
             }
         }
         
         private void RunTestButton_Click(object sender, RoutedEventArgs e)
         {
-            RunTestWindow runTestWindow = new RunTestWindow();
+            EditTestWindow runTestWindow = new EditTestWindow();
             runTestWindow.Show();
             Close();
         }
-        
-        // private Style CreateWatermarkStyle()
-        // { 
-        //     Style style = new Style(typeof(TextBox)); 
-        //     Trigger trigger = new Trigger()
-        //     {
-        //         Property = TextBox.TextProperty,
-        //         Value = ""
-        //     };
-        //     trigger.Setters.Add(new Setter(TextBox.ForegroundProperty, Brushes.Gray));
-        //     trigger.Setters.Add(new Setter(TextBox.TextProperty, "Введите кодовое слово для админа!"));
-        //     
-        //     style.Triggers.Add(trigger);
-        //     
-        //     return style;
-        // }
+
+        private void TextBox1_KeyDown(object sender, RoutedEventArgs e) 
+        {
+            TextBox textBox = (TextBox)sender;
+            if (textBox.Text == "бульк")
+            {
+                EditTestWindow editTestWindow = new EditTestWindow();
+                editTestWindow.Show();
+                Close();
+            }
+        }
 
         private void TextBox1_SelectionChanged(object sender, RoutedEventArgs e)
         {

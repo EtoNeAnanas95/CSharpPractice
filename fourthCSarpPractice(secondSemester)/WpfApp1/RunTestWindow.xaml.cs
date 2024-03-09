@@ -21,7 +21,7 @@ public partial class RunTestWindow
     
     private void RunButton_OnClick(object sender, RoutedEventArgs e)
     {
-        if (!_testsExists)
+        if (!_testsExists && MainSpace.Children.Count == 1)
         {
             TextBlock textBlock1 = new TextBlock();
             textBlock1.Text = "уууууууууупс";

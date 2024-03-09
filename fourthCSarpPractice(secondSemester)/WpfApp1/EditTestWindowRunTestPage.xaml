@@ -1,0 +1,109 @@
+﻿<Page x:Class="WpfApp1.EditTestWindowRunTestPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Background="Bisque"
+        Title="NewWindows" Height="450" Width="800">
+    <Grid x:Name="MainSpace">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock
+                x:Name="NameTextBlock"
+                Grid.Row="0"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                TextAlignment="Center"
+                FontFamily="Arial Black"
+                FontSize="16"
+                Foreground="#7a574a"
+            />
+            
+            <TextBlock
+                x:Name="DescriptionTextBlock"
+                Grid.Row="1"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                TextAlignment="Center"
+                FontFamily="Arial"
+                FontStyle="Italic"
+                FontSize="14"
+                Foreground="#7a574a"
+            />
+            
+        </Grid>
+        
+        <Grid 
+            x:Name="AnswersGrid"
+            Grid.Row="1"
+        >
+            
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Button 
+                x:Name="_1AnswerButton"
+                Grid.Row="0"
+                Width="350"
+                VerticalAlignment="Bottom"
+                Content="1"
+                FontSize="16"
+                FontFamily="Arial Black"
+                Click="AnswerButton_OnClick"
+            />
+            
+            <Button 
+                x:Name="_2AnswerButton"
+                Grid.Row="1"
+                Width="350"
+                VerticalAlignment="Center"
+                Content="2"
+                FontSize="16"
+                FontFamily="Arial Black"
+                Click="AnswerButton_OnClick"
+            />
+            
+            <Button 
+                x:Name="_3AnswerButton"
+                Grid.Row="2"
+                Width="350"
+                VerticalAlignment="Top"
+                Content="3"
+                FontSize="16"
+                FontFamily="Arial Black"
+                Click="AnswerButton_OnClick"
+            />
+            
+            <TextBlock
+                x:Name="AnswerResultTextBlock"
+                Grid.Row="3"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                TextAlignment="Center"
+                FontFamily="Arial"
+                FontStyle="Italic"
+                FontSize="14"
+                Foreground="#7a574a"
+            />
+            
+        </Grid>
+        
+    </Grid>
+</Page>

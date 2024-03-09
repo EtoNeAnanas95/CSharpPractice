@@ -26,7 +26,8 @@
             FontFamily="Cascadia Code"
             Foreground="#7a574a"
             Margin="10"
-            />
+        />
+        
         <Button 
             x:Name="RunTestButton"
             Grid.Row="1" 
@@ -39,7 +40,9 @@
             Width="180"
             FontSize="16"
             FontWeight="Bold" 
-            Click="RunTestButton_Click"/>
+            Click="RunTestButton_Click"
+        />
+        
         <Button x:Name="EditTestButton"
             Grid.Row="2" Background="#7a574a" 
             Foreground="White" 
@@ -50,6 +53,8 @@
             Width="200"
             FontWeight="Bold" 
             FontSize="16"
-            Click="EditTestButton_Click"/>
+            Click="EditTestButton_Click"
+        />
+        
         </Grid>
 </Window>
