@@ -38,8 +38,8 @@ public partial class EditTestWindowRunTestPage : Page
         }
         else AnswerResultTextBlock.Text = "ТЫ НЕВЕРЕОЯТНО ЛОХ(((";
         
-        Thread.Sleep(1000);
         _currentQuestion++;
+        AnswerResultTextBlock.Text = String.Empty;
         
         if (_currentQuestion < _listTests.Count) SwitchAttributesContent();
         else

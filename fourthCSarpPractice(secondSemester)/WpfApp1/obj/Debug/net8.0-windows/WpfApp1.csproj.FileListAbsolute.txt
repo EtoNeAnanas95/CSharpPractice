@@ -60,3 +60,5 @@ C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\EditTestWindowRunTestPage.g.cs
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\EditTestWindowEditTestPage.baml
 C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\EditTestWindowRunTestPage.baml
+C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\EditTestWindowTestsNotFoundPage.g.cs
+C:\Users\eto_d\RiderProjects\CSharpPractice\fourthCSarpPractice(secondSemester)\WpfApp1\obj\Debug\net8.0-windows\EditTestWindowTestsNotFoundPage.baml

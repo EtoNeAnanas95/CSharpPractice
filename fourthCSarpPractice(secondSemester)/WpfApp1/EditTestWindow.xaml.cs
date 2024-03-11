@@ -24,6 +24,14 @@ public partial class EditTestWindow : Window
 
     private void RunButton_OnClick(object sender, RoutedEventArgs e)
     {
-        MainFrame.Content = new EditTestWindowRunTestPage();
+        if (CheckTestExist()) MainFrame.Content = new EditTestWindowRunTestPage();
+        else MainFrame.Content = new EditTestWindowTestsNotFoundPage();
+    }
+
+    private bool CheckTestExist()
+    {
+        List<Test> listTests = Json.Deserialize<List<Test>>("Tests.json");
+        if (listTests == null!) return false;
+        else return true;
     }
 }

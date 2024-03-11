@@ -1,5 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace WpfApp1;
@@ -11,10 +10,12 @@ public partial class EditTestWindowEditTestPage : Page
     public EditTestWindowEditTestPage()
     {
         InitializeComponent();
-        
         listTests = Json.Deserialize<List<Test>>("Tests.json");
-        if (listTests == null) listTests = new List<Test>();
-        
+        if (listTests == null!)
+        {
+            listTests = new List<Test>();
+            listTests.Add(new Test("", "", "", "", ""));
+        }
         MainGrid.ItemsSource = listTests;
     }
 

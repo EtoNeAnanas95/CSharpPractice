@@ -20,11 +20,7 @@ namespace WpfApp1
                 T obj = JsonConvert.DeserializeObject<T>(json)!;
                 return obj;
             }
-            else
-            {
-                MessageBox.Show("Файла по данному пути не существует");
-                return default(T)!;
-            }
+            else return default(T)!;
         }
     }
 }

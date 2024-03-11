@@ -15,11 +15,13 @@
         </Grid.RowDefinitions>
         
         <Grid Grid.Row="0">
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="4*"/>
                 <ColumnDefinition Width="4*"/>
             </Grid.ColumnDefinitions>
+            
             <Button
                 x:Name="ExitButton"
                 Grid.Column="0"
@@ -29,8 +31,8 @@
                 Foreground="White"
                 FontWeight="Bold"
                 Click="ExitButton_Click"
-                
             />
+            
             <Button 
                 x:Name="EditButton"
                 Grid.Column="1"
@@ -41,6 +43,7 @@
                 FontWeight="Bold"
                 Click="EditButton_OnClick"
             />
+            
             <Button 
                 x:Name="RunButton"
                 Grid.Column="2"
@@ -51,6 +54,7 @@
                 FontWeight="Bold"
                 Click="RunButton_OnClick"
             />
+            
         </Grid>
         
         <Frame Grid.Row="1"
