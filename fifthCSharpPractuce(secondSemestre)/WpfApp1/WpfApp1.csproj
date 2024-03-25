@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Page Update="View\MainWindow.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MaterialDesignThemes" Version="5.0.1-ci577" />
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
+      <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="View\background.gif" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Model\Source\background.gif">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
+</Project>

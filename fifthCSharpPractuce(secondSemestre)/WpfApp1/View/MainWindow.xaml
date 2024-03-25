@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Weather Tracker" Height="664" Width="394">
+    <Grid>
+        <Grid.Background>
+            <VisualBrush>
+                <VisualBrush.Visual>
+                    <Image 
+                        gif:ImageBehavior.AnimatedSource="../Model/Source/background.gif"
+                        gif:ImageBehavior.AutoStart="True"
+                        Opacity="0.95"
+                        gif:ImageBehavior.RepeatBehavior="1"
+                    />
+                </VisualBrush.Visual>
+            </VisualBrush>
+        </Grid.Background>
+        
+        <Frame x:Name="MainFrame"/>
+        
+    </Grid>
+</Window>
+    
