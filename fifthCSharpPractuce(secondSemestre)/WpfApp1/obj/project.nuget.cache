@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rqm5iUUU7J0HuEBfWcnvGNYgYUKEffOPGH6lQ4f6xK2fzDK/XazNSB5Xo86WlMN0eQFQqKrS3SLNe9wTfwngcg==",
+  "dgSpecHash": "L84BMAzpp48r6cjwOCb+5bQSfheEIAtu88rXFD6XdAX+a3HillCqbD1GmjtfaaTKeBcpkqySH1apyZ8Ga7ooPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eto_d\\RiderProjects\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "C:\\Users\\eto_d\\OneDrive\\Рабочий стол\\csharpPractice\\fifthCSharpPractuce(secondSemestre)\\WpfApp1\\WpfApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eto_d\\.nuget\\packages\\materialdesigncolors\\3.1.0-ci577\\materialdesigncolors.3.1.0-ci577.nupkg.sha512",
     "C:\\Users\\eto_d\\.nuget\\packages\\materialdesignthemes\\5.0.1-ci577\\materialdesignthemes.5.0.1-ci577.nupkg.sha512",

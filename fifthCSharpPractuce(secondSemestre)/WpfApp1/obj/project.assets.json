@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eto_d\\RiderProjects\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\eto_d\\OneDrive\\Рабочий стол\\csharpPractice\\fifthCSharpPractuce(secondSemestre)\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\eto_d\\RiderProjects\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\eto_d\\OneDrive\\Рабочий стол\\csharpPractice\\fifthCSharpPractuce(secondSemestre)\\WpfApp1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\eto_d\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eto_d\\RiderProjects\\WpfApp1\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\eto_d\\OneDrive\\Рабочий стол\\csharpPractice\\fifthCSharpPractuce(secondSemestre)\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eto_d\\AppData\\Roaming\\NuGet\\NuGet.Config",

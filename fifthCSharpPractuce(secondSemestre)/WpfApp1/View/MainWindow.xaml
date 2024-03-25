@@ -9,7 +9,11 @@
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Weather Tracker" Height="664" Width="394">
+        Title="Weather Tracker"
+        MinHeight="664"
+        Height="664"
+        MinWidth="394"
+        Width="394">
     <Grid>
         <Grid.Background>
             <VisualBrush>
